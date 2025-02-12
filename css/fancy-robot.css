@@ -41,6 +41,7 @@
   top: 27%;
   left: 72%;
   transform: translate(-50%, -50%);
+  opacity: 0.5;
   width: 100px;
   height: 100px;
   border-radius: 50%;
@@ -77,6 +78,7 @@
   width: 0px;
   height: 0px;
   transform: skew(20deg);
+  opacity: 0.5;
   border-right: 70px solid transparent;
   border-bottom: 40px solid orange;
   border-left: 70px solid transparent;
@@ -87,7 +89,8 @@
   display: grid;
   grid-template-columns: repeat(6, auto);
   grid-template-rows: repeat(2, auto);
-  background: url(https://picsum.photos/200/100);
+  background-image: url(https://picsum.photos/200/100);
+  opacity: 0.5;
   bottom: 10%;
   left: 30%;
   width: 200px;
